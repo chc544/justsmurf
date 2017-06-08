@@ -1,5 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 /* mixins, variables, etc. */
 
@@ -9,6 +10,7 @@ $gray-medium-light: #eaeaea;
 
 body {
   padding-top: 60px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 section {
