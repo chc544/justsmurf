@@ -13,4 +13,7 @@ class StaticPagesController < ApplicationController
 
   def account
   end
+
+  def checkout
+  end
 end
