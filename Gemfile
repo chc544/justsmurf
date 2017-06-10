@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'ruby',						'2.3.3'
 gem 'rails', 					'5.1.1'
 gem 'bootstrap-sass', 			'3.3.7'
 gem 'puma', 					'3.9.1'
