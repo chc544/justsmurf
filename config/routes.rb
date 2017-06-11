@@ -4,25 +4,11 @@ Rails.application.routes.draw do
 
   resources :items
 
-  get 'items/index'
-
-  get 'items/show'
-
   get 'items/new'
-
-  get 'items/edit'
-
-  get 'items/create'
-
-  get 'items/update'
-
-  get 'items/destroy'
-
-  get 'items/sale'
 
   get 'users/new'
 
-  root 'static_pages#home'
+  root 'items#index'
 
   get  '/help',    to: 'static_pages#help'
 
