@@ -51,7 +51,15 @@ h2 {
 }
 
 p {
-    font-size: 1.2em;
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 5px;
+  text-align: left;
+  font-weight: normal;
+}
+
+a {
+  font-size: 1.2em;
   letter-spacing: -1px;
   margin-bottom: 5px;
   text-align: left;
